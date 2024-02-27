@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Temperature Converter</h1>
+        <!-- Form to convert Celsius to Fahrenheit -->
+        <form>
+            <div class="input-group">
+                <div>
+                    <label id="gray" for="degree">Degree: </label><br />
+                    <input type="number" id="degree" name="degree" placeholder="Enter value"><br>
+                </div>
+                <div>
+                    <label id="gray" for="" id="type">Type:</label><br />
+                    <select name="type" id="type-select">
+                        <option value="Fahrenheit">Fahrenheit</option>
+                        <option value="Celsius">Celsius</option>
+                    </select>
+                </div>
+            </div>
+            <!-- Display the converted temperature here -->
+            <div id="display">
+                <p id="gray">Result:</p>
+                <p class="result">Result</p>
+            </div>
+            <button id="convert-btn">Convert</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
